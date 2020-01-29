@@ -1,5 +1,6 @@
 package com.eksar
 
+import com.eksar.model.CoroutinesExample
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
 
@@ -11,6 +12,7 @@ open class Application {
     //System.setProperty("https.protocols", "TLSv1.2,TLSv1.1,TLSv1");
 
     System.out.println("Start system")
+    //CoroutinesExample()
   }
 }
 

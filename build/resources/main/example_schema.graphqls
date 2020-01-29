@@ -4,7 +4,7 @@ type Query {
   getUserById(userId:Int!):User
   getUserFriends(userId:Int!):[User!]!
   getAllUsers:[User!]!
-  getAllByIdList(input: MultiUserSearch):[User!]!
+  getAllByIdList(input: MultiUserSearch!):[User!]!
 
 }
 
